@@ -1,0 +1,229 @@
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+h3 {
+  margin: 0;
+}
+a {
+  color: #6c7374;
+}
+a:hover {
+  text-decoration: none;
+}
+.content-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+.col-narrow {
+  width: 30%;
+  float: left;
+}
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+
+
+
+/* Experience trabalho
+-------------------------*/
+.work {
+  background: #EDF2F4;
+}
+h3 ~ p {
+  margin: 0;
+}
+.job-description {
+  margin-bottom: 20px;
+}
+.job-description p:first-of-type {
+  margin-top: 0;
+}
+
+
+/* Educação
+-------------------------*/
+.education {
+  background: #8D99AE;
+}
+p + h3 {
+  margin-top: 30px;
+}
+
+section#informacao div#caixas{
+	width: 1200px;
+	height: 450px;
+	/*background-color: pink;/*despues de hecho se borra este item*/
+	margin-top: 0px;
+}
+
+	
+section#informacao div#caixas div#caixa1{
+	width: 550px;
+	height: 450px;
+	/*background-color: green;*/
+  float: left;
+ 
+}
+
+section#informacao div#caixas div#caixa1 img#pintura{
+	width: 450px;
+	height:185px;
+	margin-left:70px;
+	margin-top: 80px;
+	 
+}
+
+section#informacao div#caixas div#caixa2{
+	width: 550px;
+	height: 450px;
+	/*background-color: purple;*/
+	margin-left: 20px;
+	float:right;
+}
+
+section#informacao div#caixas div#caixa2 h2{
+text-align: center;
+}
+section#informacao div#caixas div#caixa2 p.formulario{
+	color: #FFFFFF;
+	font-size: 23px;
+	/*font-weight: bold;*/
+	margin-top: 0px;
+	margin-left: 50px;
+	font-family: 'Caveat', cursive;
+  text-align:center;
+  object-position: center;
+}
+	
+form {
+    /* Apenas para centralizar o form na página */
+    margin-left: 50px;
+	margin-top: 10px;
+    width: 500px;
+	height: 445px;
+    /* Para ver as bordas do formulário */
+   /* padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;*/
+}
+
+form div + div {
+    margin-top: 2em;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+input, textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1.3em 'Caveat', cursive;
+	
+    
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000000;
+}
+
+
+button {
+    font-size: 1.5em;
+    background: #292929;
+    border: 0;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	font-family: 'Caveat', cursive;
+}
+
+button:hover {
+    background: #ffffff;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+	font-family: 'Caveat', cursive;
+	color:#292929;
+}
+
+
+
+
+/* Header and Footer
+-------------------------*/
+header, footer {
+  background: #2B2D42;
+  color: #8D99AE;
+}
+/* header */
+header h1, header h2 {
+  color: #EDF2F4;
+  margin: 0;
+}
+.profile-img {
+  border-radius: 50%;
+}
+/* footer */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+
+/* Nav
+-------------------------*/
+nav {
+  text-align: center;
+  background-color: #202727;
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
